@@ -1,0 +1,41 @@
+{
+	"name": "tomzx/profiler",
+	"description": "PHP profiler.",
+	"type": "library",
+	"keywords": [
+		"profiler"
+	],
+	"homepage": "https://github.com/tomzx/profiler",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tom Rochette",
+			"email": "tom@tomrochette.com",
+			"homepage": "http://www.tomrochette.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/tomzx/profiler/issues"
+	},
+	"require": {
+		"php": ">=7.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^5"
+	},
+	"autoload": {
+		"psr-4": {
+			"tomzx\\Profiler\\": "src/tomzx/Profiler"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"tomzx\\Profiler\\Test\\": "tests/tomzx/Profiler"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.1-dev"
+		}
+	}
+}
